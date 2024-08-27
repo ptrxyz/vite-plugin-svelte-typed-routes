@@ -1,0 +1,32 @@
+{
+    "name": "vite-plugin-svelte-typed-routes",
+    "author": {
+        "name": "Peter Krauß",
+        "email": "ptrxyz@gmail.com"
+    },
+    "license": "MIT",
+    "version": "0.1.0",
+    "description": "Vite plugin to create types for routes for your SvelteKit project.",
+    "module": "src/index.ts",
+    "type": "module",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "files": [
+        "src/index.ts"
+    ],
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/prettier": "^3.0.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0",
+        "prettier": "^3.3.0",
+        "@sveltejs/kit": "^2.0.0"
+    },
+    "peerDependenciesMeta": {
+        "prettier": {
+            "optional": true
+        }
+    }
+}

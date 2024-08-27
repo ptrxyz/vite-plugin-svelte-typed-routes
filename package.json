@@ -5,8 +5,12 @@
         "email": "ptrxyz@gmail.com"
     },
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Vite plugin to create types for routes for your SvelteKit project.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ptrxyz/vite-plugin-svelte-typed-routes"
+    },
     "module": "src/index.ts",
     "type": "module",
     "main": "src/index.ts",
